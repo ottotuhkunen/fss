@@ -1,54 +1,54 @@
 {
   "Albania": {
     "LATI": {
-      "Rovaniemi": "LEDVA DCT KATQA DCT REGLI DCT BEZMI DCT PENOR DCT DODAM DCT EVLAN DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Rovaniemi": "LEDVA DCT KATQA DCT REGLI DCT BEZMI DCT PENOR DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Andorra": {
     "LATI": {
       "Rovaniemi": "RINAV M127 ALELU DCT YUYUH DCT TORTO DCT PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Armenia": {
     "UDYZ": {
       "Rovaniemi": "SEVAN M54 TAVRO DCT LAPTO N82 RINGU N50 OLOPI DCT UPERI DCT BULAT DCT ELMOD L4 TOKNU DCT LALUD DCT PINOK N50 GENPA DCT ADOGI T561 LEDUN DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Austria": {
     "LOWW": {
-      "Rovaniemi": "LEDVA DCT KATQA DCT REGLI DCT BEZMI DCT PENOR DCT DODAM DCT EVLAN DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Rovaniemi": "LEDVA DCT KATQA DCT REGLI DCT BEZMI DCT PENOR DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LOWS": {
       "Rovaniemi": "INROM DCT SIMBA Y700 NENUM DCT RUDNO L132 AGNAV DCT SUPIL DCT KILNU DCT UNRIG DCT BODLA L132 DEMUR N746 GORPI DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LOWI": {
       "Rovaniemi": "KOGOL M726 NARUS DCT MAG Z20 ESIKA DCT BANUB Z212 POKEN DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Azerbaijan": {
     "UBBB": {
       "Rovaniemi": "EKRAM N39 LASKA N50 OLOPI DCT UPERI DCT BULAT DCT ELMOD L4 TOKNU DCT LALUD DCT PINOK N50 GENPA DCT ADOGI T561 LEDUN DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Belarus": {
     "UMMS": {
       "Rovaniemi": "KUBIN M854 DUBIN DCT GATVA DCT IBUZU Q92 INTOR DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Belgium": {
@@ -71,8 +71,8 @@
   "Bosnia and Herzegovina": {
     "LQSA": {
       "Rovaniemi": "MITNO L614 TORTO N732 VAL M127 LULIK N739 BABIT DCT MEBAN DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Bulgaria": {
@@ -131,315 +131,626 @@
   "Denmark": {
     "EKCH": {
       "Rovaniemi": "KEMAX DCT GAJPA DCT RASEN DCT BESLA DCT MISMO DCT NEMGU",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EKBI": {
       "Rovaniemi": "INTET DCT GAJPA DCT RASEN DCT BESLA DCT MISMO DCT NEMGU",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EKVG": {
       "Rovaniemi": "MY G3 VALDI DCT BETRO DCT DOKIX DCT VIG Z105 KVB Z325 UVEPI DCT EDEXU DCT NAMIG Z108 NOGBO DCT SUM DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
+    }
+  },
+  "Egypt": {
+    "HECA": {
+      "Rovaniemi": "CVO A16 RASDA DCT ANTAR UN133 KOROS DCT ATFIR DCT KARIL DCT KEKED DCT LENOV N133 PENOR DCT TESPO DCT ARMOD Z228 NILUG DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Estonia": {
     "EETN": {
       "Rovaniemi": "MOHNI DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EETU": {
       "Rovaniemi": "OSKAV DCT MOHNI DCT TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Finland": {
     "EFHK": {
       "Rovaniemi": "TEVRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EFOU": {
       "Rovaniemi": "ASLUP Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EFTP": {
       "Rovaniemi": "GEMKU DCT MIMRU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EFTU": {
       "Rovaniemi": "UVOPA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EFKS": {
       "Rovaniemi": "BEVNA DCT NUBVU DCT ASLUP DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EFKU": {
       "Rovaniemi": "UGLUM DCT RIBVU Y75 NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "France": {
     "LFPG": {
       "Rovaniemi": "RANUX UN858 LIMGO DCT TESGA DCT OTMON Y150 TOLGI DCT ROSOK DCT NONSA DCT BAKLI DCT NEFYN N851 PELUP DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LFPO": {
       "Rovaniemi": "RANUX UN858 LIMGO DCT TESGA DCT OTMON Y150 TOLGI DCT ROSOK DCT NONSA DCT BAKLI DCT NEFYN N851 PELUP DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LFMN": {
       "Rovaniemi": "IRMAR DCT KINES DCT VANAS DCT ESOKO DCT GODRA DCT LOKTA DCT TIKNI N746 MAG DCT VIBIS DCT OKAGA DCT KOTAM DCT VIBAR DCT ARL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LFLL": {
       "Rovaniemi": "BUSIL DCT AMORO DCT MOMIL DCT BAGBI DCT SIZZA UM733 KOPOR UN874 VEKIN UN873 ADUTO DCT VICOT DCT EEL DCT NIKIL DCT DOSUR DCT VIBAR DCT ARL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "LFML": {
       "Rovaniemi": "FJR DCT GAI DCT PERIG DCT ADABI DCT BOKNO DCT DIBES DCT TSU UN858 LIMGO DCT MASEK DCT FEDZA N858 ESOBU N746 MAG DCT BANUB Z212 POKEN DCT KOSKA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Germany": {
     "EDDF": {
       "Rovaniemi": "MARUN Y150 TOLGI DCT KOKOR DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDM": {
       "Rovaniemi": "AKINI Y104 MAMOR L132 AGNAV DCT SUPIL DCT KILNU DCT UNRIG DCT BODLA L132 DEMUR N746 GORPI DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDB": {
       "Rovaniemi": "GERGA M725 RENKI L132 DEMUR N746 GORPI DCT KOSKA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDL": {
       "Rovaniemi": "MEVEL Y850 BASUM DCT ALASA DCT DETSO DCT BODRI DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDH": {
       "Rovaniemi": "LUGEG P605 GESKA N851 TOVRI DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDK": {
       "Rovaniemi": "PODIP Y867 PELUN DCT ANZIV DCT WRB Y867 TOLGI DCT SALLO DCT ETPIG DCT TRS DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     },
     "EDDS": {
       "Rovaniemi": "OKIBA N851 RIMKI Z99 LOHRE N746 ROBEL DCT MAG DCT BANUB Z212 POKEN DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
-      "Kiruna": "...",
-      "Tromsø": "..."
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Georgia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "UGTB": {
+      "Rovaniemi": "LAPTO N82 NIRGA DCT GIFUD DCT BEMIT DCT USEMA DCT OKNOS DCT RUGOT DCT MOR DCT AMDEL DCT NIBIM DCT OLBEG DCT RITUN DCT OTVUT DCT PETUK DCT TEDMO DCT DISKI DCT NIBOK DCT OSPER DCT LINRU DCT LODKU DCT PIKID N50 NUDKO T561 ODATI P145 LUTIT DCT LIGRU DCT BAPIN P145 ATLUM T561 LEDUN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Greece": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LGAV": {
+      "Rovaniemi": "KRO UG33 LMO DCT ATFIR DCT LOMOS DCT KENIN DCT ETUBO M977 BESOT DCT VABER DCT GUNTA DCT LUTAL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LGIR": {
+      "Rovaniemi": "EPALO M749 DIRMI UM749 MIL UL617 KEA UG33 KOROS UN133 GIKAS UG18 DIKNI UM987 ATFIR DCT LOMOS DCT KENIN DCT ETUBO M977 BESOT DCT VABER DCT GUNTA DCT LUTAL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LGTS": {
+      "Rovaniemi": "FSK N128 RUGAS DCT SIN DCT RAXAD DCT PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LGRP": {
+      "Rovaniemi": "VANES UM601 ADESO UN133 ATFIR DCT LOMOS DCT NARKA DCT KEKED DCT PODAN DCT SUTIK DCT SUWGI M857 BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LGKR": {
+      "Rovaniemi": "NIKRO Y132 TIRCA DCT PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LGSA": {
+      "Rovaniemi": "SOKRI B1 VELOP DCT ATV UM749 SKP UL617 TSL UM987 MICPO UL863 EVIVI L863 OKANA DCT PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Hungary": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LHBP": {
+      "Rovaniemi": "LITKU Y301 KREMI DCT NIDOK DCT BABKO DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Iceland": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "BIKF": {
+      "Rovaniemi": "OSKUM DCT VALDI N623 FLS L24 ADOPI T70 XELVI DCT GAJPA DCT LAPIX DCT SOPLI DCT GOSDI DCT ELBOG DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "BIRK": {
+      "Rovaniemi": "REKVA DCT HA DCT 6610N DCT 6700N DCT XEGLA DCT MIMKI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "BIAR": {
+      "Rovaniemi": "UTISU DCT 67N010W DCT 68N000E DCT NINUL DCT PISEL DCT MIMKI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Ireland": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "EIDW": {
+      "Rovaniemi": "ROTEV DCT GOTNA DCT BLACA DCT TRN DCT BEREP DCT KEKOD DCT SOLKA DCT NETAV DCT ETSON DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EICK": {
+      "Rovaniemi": "TISMO DCT ROTEV DCT BLACA DCT TRN DCT BEREP DCT KEKOD DCT SOLKA DCT NETAV DCT ETSON DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EINN": {
+      "Rovaniemi": "AGINI DCT ROTEV DCT GOTNA DCT TRN DCT BEREP DCT KEKOD DCT SOLKA DCT NETAV DCT ETSON DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Italy": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LIRF": {
+      "Rovaniemi": "SOVAN L995 AMTEL DCT RISOM DCT TIVAP DCT UPEGU DCT TOMTI DCT DIMEX DCT RIVDI DCT PENOR DCT ANFEV DCT KOSKA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LIMC": {
+      "Rovaniemi": "OSKOR M985 TAGIP DCT BRENO DCT ALUTU DCT RUDNO L132 AGNAV DCT SUPIL DCT KILNU DCT UNRIG DCT BODLA L132 DEMUR N746 GORPI DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LIME": {
+      "Rovaniemi": "PEPAG N851 ROLSA DCT LOKTA DCT TIKNI N746 MAG DCT BANUB Z212 POKEN DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LIRN": {
+      "Rovaniemi": "BEDPI DCT MOLUX DCT RUPAX DCT XOLTA DCT PETOV DCT NIDLO DCT NAVTI DCT DESEN DCT SUWGI M857 BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LICJ": {
+      "Rovaniemi": "LURON DCT NIKOL DCT NAVTI DCT DESEN DCT SUWGI M857 BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Latvia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
-    }
-  },
-  "Liechtenstein": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "EVRA": {
+      "Rovaniemi": "SOKVA DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EVLA": {
+      "Rovaniemi": "TOLBI DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Lithuania": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "EYVI": {
+      "Rovaniemi": "TAGOL DCT LUNIT DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EYPA": {
+      "Rovaniemi": "TIRIN DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EYKA": {
+      "Rovaniemi": "OTNAV DCT ERIVA N994 RIGSO M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Luxembourg": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "ELLX": {
+      "Rovaniemi": "ARCKY DCT KENUM N853 ONUNE DCT ROBEG DCT MEGAR DCT LEBDA DCT KEMAX N851 ROXEN DCT KOGAV DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Malta": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LMML": {
+      "Rovaniemi": "GZO P623 OLLEK DCT ARFOL DCT ROMSU DCT MOLUX DCT VAPUP DCT PALEZ DCT KOPRY DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Moldova": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LUKK": {
+      "Rovaniemi": "NUNTA DCT PASKA DCT SAT DCT KENIN DCT ROBTU DCT PODAN DCT SUTIK DCT SUWGI M857 BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Montenegro": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LYTV": {
+      "Rovaniemi": "NIK DCT PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    }
+  },
+  "Morocco": {
+    "GMMN": {
+      "Rovaniemi": "TOLSI UG5 KORIS L27 VJF N10 HIJ Z230 TLD N858 DGO N867 BLV P87 BELEN DCT GODEM UP87 TERPO UN867 AVANT L980 MID UM185 DIGSU P144 LATMU P48 ROKAN P40 RENEQ DCT OMIMA DCT LOKSA DCT PELUP DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "GMMX": {
+      "Rovaniemi": "MABAP UR722 SAK UG5 KORIS L27 VJF N10 HIJ Z230 TLD N858 DGO N867 BLV P87 BELEN DCT GODEM UP87 TERPO UN867 AVANT L980 MID UM185 DIGSU P144 LATMU P48 ROKAN P40 RENEQ DCT OMIMA DCT LOKSA DCT PELUP DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Netherlands": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "EHAM": {
+      "Rovaniemi": "ANDIK N873 JUIST DCT ATTUS DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EHEH": {
+      "Rovaniemi": "VELNI Y869 SUMOP L179 MEVEL Y850 BASUM DCT ALASA DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EHRD": {
+      "Rovaniemi": "ANDIK N873 BAVTA N607 AAL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "North Macedonia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LWSK": {
+      "Rovaniemi": "RAXAD L617 RAVAK DCT OSVIX DCT PELOV DCT PARAK DCT KEKED DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Norway": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "ENGM": {
+      "Rovaniemi": "RIBBE DCT EGAGO DCT BODRI DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ENZV": {
+      "Rovaniemi": "ODINU DCT EGAGO DCT BODRI DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ENBR": {
+      "Rovaniemi": "INTUM DCT EVNAN DCT KOSOB DCT NOGBO DCT SUM DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ENVA": {
+      "Rovaniemi": "SOLKA DCT NETAV DCT ETSON DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ENTC": {
+      "Rovaniemi": "ERPUG DCT GOMAV DCT EXUTI DCT GITEV DCT TUGPU DCT OSLIT",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ENBO": {
+      "Rovaniemi": "PENNO DCT DEXOP DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Poland": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "EPWA": {
+      "Rovaniemi": "BAMSO Z182 ASLUX Z460 XESNA M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EPKK": {
+      "Rovaniemi": "NAVUR DCT POLON N133 PENOR DCT ARMOD Z228 NILUG DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EPGD": {
+      "Rovaniemi": "VAPOS N133 PENOR DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EPKT": {
+      "Rovaniemi": "NAVUR DCT SUWGI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EPWR": {
+      "Rovaniemi": "XIDNA L617 ADVAB P733 IRLUN N133 PENOR DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Portugal": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LPPT": {
+      "Rovaniemi": "IXIDA DCT PINEK DCT LOTEE DCT FEJAC DCT JSY UM189 AKIKI UN867 AVANT L980 MID UM185 DIGSU P144 LARGA DCT INBOB DCT INVOL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LPPR": {
+      "Rovaniemi": "BELDU DCT ADORO L155 ZMR DCT NUBLO DCT RONSI DCT DELOG DCT GODEM DCT USODA DCT ERCUT DCT DITAL UN873 ADUTO DCT VICOT DCT DOSUR DCT VIBAR DCT ARL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LPFR": {
+      "Rovaniemi": "DCT ELVAR DCT BARDI N873 DELOG DCT GODEM DCT USODA DCT ERCUT DCT DITAL UN873 ADUTO DCT VICOT DCT NIRDU DCT LEGPI N873 BAVTA N607 AAL DCT TINDO DCT SKA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LPMA": {
+      "Rovaniemi": "DEGUN DCT RULET DCT GALPA DCT NARTA DCT DIGAL DCT TOSDI DCT ZMR DCT NUBLO DCT RONSI DCT DELOG DCT GODEM DCT USODA DCT ERCUT DCT DITAL UN873 ADUTO DCT VICOT DCT DOSUR DCT VIBAR DCT ARL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Romania": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LROP": {
+      "Rovaniemi": "BUKEL DCT EDETA DCT REBLA DCT KARIL DCT KENIN DCT ROBTU DCT PODAN DCT BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Russia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
-    }
-  },
-  "San Marino": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "UUEE": {
+      "Rovaniemi": "TOKNU L4 NUDKO T561 ODATI P145 ATLUM T561 LEDUN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "UUDD": {
+      "Rovaniemi": "SUNUN M869 RAVKA N50 NUDKO T561 ODATI P145 ATLUM T561 LEDUN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "UUWW": {
+      "Rovaniemi": "SUNUN M869 RAVKA N50 NUDKO T561 ODATI P145 ATLUM T561 LEDUN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ULLI": {
+      "Rovaniemi": "UTETA M60 ATLUM T561 LEDUN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Serbia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LYBE": {
+      "Rovaniemi": "TISAK M173 PARAK DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Slovakia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LZIB": {
+      "Rovaniemi": "NIT M985 NIDOK DCT BABKO Z169 POLON N871 SUWGI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LZKZ": {
+      "Rovaniemi": "EVULA T710 KSC N133 KOJOT DCT PODAN DCT SUTIK DCT SUWGI M857 BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Slovenia": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LJLJ": {
+      "Rovaniemi": "LUPIX DCT DOL DCT VALLU DCT LAPNA DCT GOLVA DCT LEDVA DCT KATQA DCT REGLI DCT BEZMI DCT PENOR DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Spain": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LEMD": {
+      "Rovaniemi": "RBO N867 DGO L176 LUSEM DCT LULUT DCT ADABI DCT BOKNO UN858 VANAD UN874 VEKIN UN873 ADUTO DCT VICOT DCT BEDUM DCT ATTUS DCT DETSO DCT BODRI DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LEBL": {
+      "Rovaniemi": "OLOXO DCT OKABI DCT TOU DCT ADABI DCT BOKNO UN858 VANAD UN874 BAMES UT191 PODEM UN873 ADUTO N873 INSUS DCT AMSEV P602 PIPEX M609 ULMUG M125 ELVOM P850 ROGED DCT UMSAK DCT RASEN DCT VERAG DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LEMG": {
+      "Rovaniemi": "BLN N865 VTB N867 DGO N858 ABRIX DCT CNA DCT ADABI DCT BOKNO DCT DIBES DCT TSU UM163 CTL DCT ARDEN DCT KOMOB DCT MEGAR DCT LEBDA DCT KEMAX N851 ROXEN DCT KOGAV DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LEPA": {
+      "Rovaniemi": "MEROS N853 LUMAS DCT SOFFY UM976 MOPEM DCT CACHI DCT AVLON UM976 KOPOR UY376 SOMIL UN873 ADUTO DCT VICOT DCT NIRDU N873 TUSKA/N0466F280 N873 RADIS N873 LINSA DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "GCLP": {
+      "Rovaniemi": "VASTO DCT BAROK DCT IXIDA DCT BALNO DCT LOTEE DCT FEJAC DCT JSY UM189 AKIKI UN867 AVANT L980 MID UM185 DIGSU P144 LARGA DCT INBOB DCT ULMUG M125 ELVOM P850 ROGED DCT UMSAK DCT RASEN DCT VERAG DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "GCTS": {
+      "Rovaniemi": "BIMBO DCT GALPA DCT VERAM DCT XANEL DCT RIPEL DCT ADVAT T290 GELPO DCT JABEX DCT TUVEN DCT ROTEV DCT TRN DCT KLONN DCT OLGUV DCT LUKIG DCT RISEM DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LEAL": {
+      "Rovaniemi": "MITOS DCT ARGOR DCT EBROX Z26 LATRO N861 OLOXO DCT OKABI DCT TOU DCT ADABI DCT BOKNO UN858 VANAD UN874 VEKIN UN873 ADUTO DCT VICOT DCT GREFI DCT RAMUD DCT PIPEX M609 ULMUG M125 ELVOM P850 ROGED DCT UMSAK DCT RASEN DCT VERAG DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Sweden": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "ESSA": {
+      "Rovaniemi": "RESNA DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ESGG": {
+      "Rovaniemi": "LABAN N873 DETSO DCT DEPEX DCT UMLAX DCT BODRI DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ESMS": {
+      "Rovaniemi": "NEXIL M736 RASMU DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ESPA": {
+      "Rovaniemi": "BESLA M607 MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ESSB": {
+      "Rovaniemi": "RESNA DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "ESNQ": {
+      "Rovaniemi": "TERPA DCT BEGDO DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   },
   "Switzerland": {
-    "": {
-      "Rovaniemi": "",
-      "Kiruna": "...",
-      "Tromsø": "..."
+    "LSZH": {
+      "Rovaniemi": "DEGES Z1 ETAGO DCT TIKNI N746 MAG DCT BANUB Z212 POKEN DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LSGG": {
+      "Rovaniemi": "MOLUS N871 KORED DCT BERSU DCT DITON DCT LOKTA DCT TIKNI N746 KENIG DCT VIBIS DCT LEGSA DCT BAKLI DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LFSB": {
+      "Rovaniemi": "ELBEG Y715 HEUSE N851 TEDGO DCT TIKNI N746 MAG DCT BANUB Z212 POKEN DCT EVLAN DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    }
+  },
+  "Turkey": {
+    "LTFM": {
+      "Rovaniemi": "IBLAX P727 BGS L622 GONGO DCT KOMAN DCT KARIL DCT KEKED DCT PODAN DCT XESNA M857 BULEP DCT BOKSU DCT BERIL DCT DOBAN DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LTFJ": {
+      "Rovaniemi": "BARPE UM603 PEREN UL863 EVIVI L863 OKANA DCT PARAK DCT NIDOK DCT SKARY Z187 KOTEK DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LTAI": {
+      "Rovaniemi": "EKSEN T337 EKNUD UT337 OSVEL UL619 MAKOL DCT TGM DCT KENIN DCT TOXAR DCT BOKSU DCT GUNTA M857 SOKVA DCT ANAMA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "LTAC": {
+      "Rovaniemi": "DEREL UL602 MAKOL DCT TGM DCT KENIN DCT LENOV DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    }
+  },
+  "Ukraine": {
+    "UKBB": {
+      "Rovaniemi": "KAFEL T731 OKROT M70 SOMOX DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "UKKK": {
+      "Rovaniemi": "KAFEL T731 OKROT M70 SOMOX DCT GERVI M857 BOKSU DCT GUNTA M857 SOKVA DCT KEMET Q11 INTOR DCT TEVRU Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    }
+  },
+  "United Kingdom": {
+    "EGLL": {
+      "Rovaniemi": "BPK Q295 MATCH P144 LARGA DCT INBOB DCT INVOL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGKK": {
+      "Rovaniemi": "FRANE M604 LARGA DCT INBOB DCT INVOL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGCC": {
+      "Rovaniemi": "POL1Z POL P17 OBOXA UP17 TIPTA UM82 ROBEM DCT ALOTI DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGSS": {
+      "Rovaniemi": "CLN DCT LEDBO M604  LARGA DCT INBOB DCT INVOL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGGW": {
+      "Rovaniemi": "MATCH Q295 PAAVO M604 LARGA DCT INBOB DCT INVOL DCT BAKLA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGPH": {
+      "Rovaniemi": "GRICE P600 ADN DCT BEREP DCT KEKOD DCT SOLKA DCT NETAV DCT ETSON DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EGBB": {
+      "Rovaniemi": "LUVUM DCT TNT N57 POL UP17 TIPTA UM82 ROBEM DCT ALOTI DCT REKMI DCT BESLA DCT MISMO DCT NEMGU",
+      "Kiruna": "",
+      "Tromsø": ""
     }
   }
 }
