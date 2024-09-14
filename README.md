@@ -1,5 +1,3 @@
-# My portfolio
+# VATSIM Scandinavia Fly and See Santa 2024
 
-You can view my custom made portfolio here:
-
-https://me.lusep.fi/
+This is a webpage for Fly and See Santa event by VATSIM Scandinavia.
