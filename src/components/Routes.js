@@ -45,11 +45,11 @@ const SelectionCard = styled.div`
   ${({ isSelected, theme }) =>
     isSelected &&
     `
-    border-bottom: 4px solid #b63f3f;
+    border-bottom: 3px solid #b63f3f;
   `}
 
   &:hover {
-    border-bottom: 4px solid ${({ theme }) => theme.titleText};
+    border-bottom: 3px solid ${({ theme }) => theme.titleText};
     background-color: ${({ theme }) => theme.tagBackground};
     color: ${({ theme }) => theme.text};
     text-decoration: none;
@@ -59,7 +59,6 @@ const SelectionCard = styled.div`
     outline: none;
   }
 `;
-
 
 const RouteTags = styled.div`
   display: block;
@@ -184,7 +183,7 @@ const Routes = () => {
           <h3>Departure location</h3>
 
           <p>If your airport or country is not listed, don't worry!</p>
-          <p>Plan your flight normally and be prepared for a possible reroute issued by one of our Flow Managers.</p>
+          <p>Plan your flight normally and be prepared for a possible reroute issued during your flight.</p>
 
           <DropdownsContainer>
             <Dropdown 

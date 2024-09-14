@@ -114,7 +114,7 @@ const SceneryButton = styled.a`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    border-bottom: 4px solid ${({ theme }) => theme.titleText};
+    border-bottom: 3px solid ${({ theme }) => theme.titleText};
     background-color: ${({ theme }) => theme.tagBackgroundHover};
     color: ${({ theme }) => theme.text};
     text-decoration: none;

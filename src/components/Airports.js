@@ -99,7 +99,7 @@ const BookingButton = styled.a`
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 
   &:hover {
-    border-bottom: 4px solid ${({ theme }) => theme.titleText};
+    border-bottom: 3px solid ${({ theme }) => theme.titleText};
     background-color: ${({ theme }) => theme.tagBackground};
     color: ${({ theme }) => theme.text};
     text-decoration: none;
@@ -126,7 +126,7 @@ const ChartsButton = styled.a`
   font-size: 14px;
 
   &:hover {
-    border-bottom: 4px solid ${({ theme }) => theme.titleText};
+    border-bottom: 3px solid ${({ theme }) => theme.titleText};
     background-color: ${({ theme }) => theme.tagBackground};
     color: ${({ theme }) => theme.text};
     text-decoration: none;

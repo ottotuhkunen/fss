@@ -13,14 +13,13 @@ import Contact from './components/Contact';
 import ThemeToggle from './components/ThemeToggle';
 
 function App() {
-  // Retrieve theme from localStorage or default to 'dark'
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark');
   const [currentSection, setCurrentSection] = useState(0);
 
   const themeToggler = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
-    localStorage.setItem('theme', newTheme); // Store the new theme in localStorage
+    localStorage.setItem('theme', newTheme);
   };
 
   // References to section elements
@@ -33,6 +32,16 @@ function App() {
     }
   };
 
+  const scrollToSection = (sectionName) => {
+    const sectionMap = {
+      Routes: 2,
+      Notes: 3,
+      Sceneries: 4,
+    };
+    const sectionIndex = sectionMap[sectionName];
+    sectionRefs.current[sectionIndex]?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -41,7 +50,7 @@ function App() {
           setCurrentSection(index);
         }
       });
-    }, { threshold: 0.5 }); // Adjust the threshold as needed
+    }, { threshold: 0.5 });
 
     sectionRefs.current.forEach((section) => observer.observe(section));
 
@@ -57,7 +66,7 @@ function App() {
         <ThemeToggle theme={theme} toggleTheme={themeToggler} />
         <Header />
         <div ref={addToRefs}>
-          <About />
+          <About scrollToSection={scrollToSection} />
         </div>
         <div ref={addToRefs}>
           <Airports />
@@ -72,9 +81,6 @@ function App() {
           <Sceneries />
         </div>
         <div ref={addToRefs}>
-          <Live />
-        </div>
-        <div ref={addToRefs}>
           <Contact />
         </div>
       </>
@@ -82,4 +88,15 @@ function App() {
   );
 }
 
+
 export default App;
+
+/*
+
+In case of LIVE
+
+<div ref={addToRefs}>
+  <Live />
+</div>
+
+*/
