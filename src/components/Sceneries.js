@@ -112,6 +112,7 @@ const SceneryButton = styled.a`
   width: 100%;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 48px;
 
   &:hover {
     border-bottom: 3px solid ${({ theme }) => theme.titleText};

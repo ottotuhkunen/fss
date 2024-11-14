@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
 // Define the booking open date/time here
-const bookingOpenDate = new Date('2024-12-01T12:00:00');
+const bookingOpenDate = new Date('2024-12-01T00:00:00');
 
 const CountdownWrapper = styled.div`
   display: flex;

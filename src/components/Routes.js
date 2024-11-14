@@ -7,7 +7,7 @@ const RoutesSection = styled.section`
   color: ${({ theme }) => theme.text};
   text-align: center;
   padding: 100px 20px;
-
+  
   h2 {
     color: ${({ theme }) => theme.sectionTitle};
   }
@@ -27,6 +27,8 @@ const SelectionsGrid = styled.div`
   padding: 20px;
   padding-top: 0px;
   padding-bottom: 10px;
+  margin-top: 20px;
+  height: 60px;
 `;
 
 const SelectionCard = styled.div`
@@ -36,7 +38,6 @@ const SelectionCard = styled.div`
   border: none;
   cursor: pointer;
   display: inline-block;
-  margin-top: 20px;
   transition: all 0.3s ease;
   border-radius: 0;
   text-decoration: none;
@@ -180,48 +181,102 @@ const Routes = () => {
 
       {selectedDestination && (
         <>
-          <h3>Departure location</h3>
-
-          <p>If your airport or country is not listed, don't worry!</p>
-          <p>Plan your flight normally and be prepared for a possible reroute issued during your flight.</p>
-
-          <DropdownsContainer>
-            <Dropdown 
-              value={selectedCountry} 
-              onChange={(e) => setSelectedCountry(e.target.value)}
-            >
-              <option value="">Select Country</option>
-              {Object.keys(routesData).map(country => (
-                <option key={country} value={country}>{country}</option>
-              ))}
-            </Dropdown>
-
-            <Dropdown 
-              value={selectedAirport} 
-              onChange={(e) => setSelectedAirport(e.target.value)}
-              disabled={!selectedCountry}
-            >
-              <option value="">Select Airport</option>
-              {selectedCountry && Object.keys(routesData[selectedCountry]).map(airport => (
-                <option key={airport} value={airport}>{airport}</option>
-              ))}
-            </Dropdown>
-          </DropdownsContainer>
-
-          {selectedCountry && selectedAirport && (
+          {/* Conditionally render content based on the selected destination */}
+          {selectedDestination === 'Rovaniemi' ? (
             <>
-              <h3>Your route to {selectedDestination}</h3>
+              <h3>Select your origin</h3>
+              <p>If your airport or country is not listed, don't worry!</p>
+              <p>Plan your flight normally and be prepared for a possible reroute issued during your flight.</p>
+
+              <DropdownsContainer>
+                <Dropdown 
+                  value={selectedCountry} 
+                  onChange={handleCountryChange}
+                >
+                  <option value="">Select Country</option>
+                  {Object.keys(routesData).map(country => (
+                    <option key={country} value={country}>{country}</option>
+                  ))}
+                </Dropdown>
+
+                <Dropdown 
+                  value={selectedAirport} 
+                  onChange={handleAirportChange}
+                  disabled={!selectedCountry}
+                >
+                  <option value="">Select Airport</option>
+                  {selectedCountry && Object.keys(routesData[selectedCountry]).map(airport => (
+                    <option key={airport} value={airport}>{airport}</option>
+                  ))}
+                </Dropdown>
+              </DropdownsContainer>
+
+              {selectedCountry && selectedAirport && (
+                <>
+                  <h3>Your route to {selectedDestination}</h3>
+                  <RouteTags>
+                    <RouteTag>{route}</RouteTag>
+                  </RouteTags>
+
+                  <a target='_blank' href={routesUrl}>
+                    Open Route in SkyVector <FaExternalLinkAlt style={{ fontSize: '14px' }} />
+                  </a>
+                </>
+              )}
+            </>
+          ) : selectedDestination === 'Kiruna' ? (
+            <>
+              <h3>Recommended routes for Kiruna</h3>
+
+              <p>From EFRO</p>
               <RouteTags>
-                <RouteTag>{route}</RouteTag>
+                <RouteTag>IBSAN DCT NEBET DCT TERPA</RouteTag>
               </RouteTags>
 
-              <a target='_blank' href={routesUrl}>
-                  Open Route in SkyVector <FaExternalLinkAlt style={{ fontSize: '14px' }} />
-              </a>
+              <p>From ENTC</p>
+              <RouteTags>
+                <RouteTag>MOKAX DCT POBEL DCT LAPLA</RouteTag>
+              </RouteTags>
+
+              <p>From ESSA</p>
+              <RouteTags>
+                <RouteTag>RESNA T317 VAGAS</RouteTag>
+              </RouteTags>
+
+              <p>Other origins</p>
+              <RouteTags>
+                <RouteTag>Free routing (pilots may expect a re-route or vectoring if necessary)</RouteTag>
+              </RouteTags>
+
             </>
-          )}
+          ) : selectedDestination === 'Tromsø' ? (
+            <>
+              <h3>Recommended routes for Tromsø</h3>
+
+              <p>Flying through Southern Norway</p>
+              <RouteTags>
+                <RouteTag>... DCT BDO Z200 BARVI</RouteTag>
+              </RouteTags>
+
+              <p>Flying through Sweden</p>
+              <RouteTags>
+                <RouteTag>... DCT RIXEM DCT MANKI</RouteTag>
+              </RouteTags>
+
+              <p>From EFRO</p>
+              <RouteTags>
+                <RouteTag>IBSAN DCT AMULU DCT GAPRO DCT KIIKA</RouteTag>
+              </RouteTags>
+
+              <p>From ESNQ</p>
+              <RouteTags>
+                <RouteTag>RIXEM DCT MANKI</RouteTag>
+              </RouteTags>
+            </>
+          ) : null}
         </>
       )}
+
     </RoutesSection>
   );
 };

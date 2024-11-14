@@ -46,6 +46,7 @@ const ToggleContainer = styled.div`
   border-radius: 50%;
   padding: 10px;
   z-index: 1000;
+  display: none;
 
   svg {
     transition: transform 0.6s ease;

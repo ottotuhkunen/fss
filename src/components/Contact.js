@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled, { keyframes, useTheme } from 'styled-components';
-import { FaDiscord, FaGlobe, FaComment, FaLink, FaTwitch } from 'react-icons/fa';
+import { FaDiscord, FaGlobe, FaComment, FaLink, FaTwitch, FaMapMarked } from 'react-icons/fa';
 
 // Keyframes for wobble effect
 const wobble = keyframes`
@@ -76,7 +76,10 @@ const Contact = () => {
 
   return (
     <ContactSection id="contact">
-      <LogoImage src={theme.logoImage} alt="VATSIM Scandinavia" />
+      <p>Happy Holidays, wishes from</p>
+      <a href="https://vatsim-scandinavia.org/" target="_blank" rel="noopener noreferrer">
+        <LogoImage src={theme.logoImage} alt="VATSIM Scandinavia" />
+      </a>
       <IconContainer>
         <IconWrapper
           href="https://vatsim-scandinavia.org/"
@@ -87,6 +90,17 @@ const Contact = () => {
         >
           <FaGlobe />
         </IconWrapper>
+
+        <IconWrapper
+          href="https://fss-map.lusep.fi/"
+          target="_blank"
+          aria-label="FSS 2024 Map"
+          onMouseEnter={() => handleMouseEnter('Fly and See Santa Map')}
+          onMouseLeave={handleMouseLeave}
+        >
+          <FaMapMarked />
+        </IconWrapper>
+
         <IconWrapper
           href="http://discord.vatsim-scandinavia.org/"
           target="_blank"
@@ -96,6 +110,7 @@ const Contact = () => {
         >
           <FaDiscord />
         </IconWrapper>
+
         <IconWrapper
           href="https://www.twitch.tv/vatsimscandinavia"
           target="_blank"
@@ -105,6 +120,7 @@ const Contact = () => {
         >
           <FaTwitch />
         </IconWrapper>
+
         <IconWrapper
           href="https://cc.vatsim-scandinavia.org/feedback"
           target="_blank"
@@ -114,6 +130,7 @@ const Contact = () => {
         >
           <FaComment />
         </IconWrapper>
+
       </IconContainer>
 
       <InfoText>{hoveredIcon}</InfoText>

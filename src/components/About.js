@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import fssImage from './images/fss.png';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const AboutSection = styled.section`
@@ -9,15 +8,17 @@ const AboutSection = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 40px 40px;
+  margin-bottom: 40px;
 
   @media(min-width: 768px) {
     flex-direction: row;
-    padding: 40px 100px;
+    padding: 40px 40px;
+    padding-right: 60px
   }
 
   .about-content {
     flex: 1;
-    padding: 0px;
     text-align: center;
 
     @media(min-width: 768px) {
@@ -40,11 +41,12 @@ const AboutSection = styled.section`
   .banner-image {
     flex: 1;
     text-align: center;
+    padding-bottom: 40px;
 
     @media(min-width: 768px) {
       text-align: right;
       padding-right: 50px;
-      margin-bottom: 0px;
+      padding-bottom: 0px;
     }
 
     img {
@@ -52,7 +54,6 @@ const AboutSection = styled.section`
       max-width: 540px;
       height: auto;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 40px;
     }
   }
 `;
@@ -79,7 +80,8 @@ const SelectionCard = styled.a`
   border-radius: 0;
   text-decoration: none;
   font-size: 14px;
-  
+  height: 45px;
+
   &:hover {
     border-bottom: 3px solid ${({ theme }) => theme.titleText};
     background-color: ${({ theme }) => theme.tagBackground};
@@ -90,6 +92,10 @@ const SelectionCard = styled.a`
   &:focus {
     outline: none;
   }
+`;
+
+const LiveTag = styled.a`
+  cursor: pointer;
 `;
 
 const About = ({ theme, scrollToSection }) => {
@@ -117,7 +123,7 @@ const About = ({ theme, scrollToSection }) => {
 
       <AboutSection id="about">
         <div className="banner-image">
-          <img src={fssImage} alt="Event banner" />
+          <img src={'/images/fss.jpg'} alt="Event banner" />
         </div>
         <div className="about-content">
           <p>
@@ -126,6 +132,7 @@ const About = ({ theme, scrollToSection }) => {
           <p>
             Fly and See Santa, the largest annual Christmas event in VATSIM skies, takes place at three airports in the northernmost reaches of Europe. Experience the magic of snow-covered landscapes and icy runways as you arrive at Rovaniemi, Tromsø, and Kiruna—airports nestled in the stunning wilderness of northern Europe. Throughout December, the airspace buzzes with flights full of passengers eager to visit Santa's winter wonderland. We hope you’ll join us for this unforgettable event!
           </p>
+          <LiveTag onClick={() => scrollToSection('Live')}>Follow us LIVE!</LiveTag>
         </div>
       </AboutSection>
 

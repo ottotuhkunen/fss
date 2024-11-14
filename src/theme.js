@@ -6,7 +6,7 @@ export const lightTheme = {
   headerBackground: 'linear-gradient(135deg, #F0F9FF, #A6C1EE)',
   defaultBackground: 'linear-gradient(135deg, #fff0f0, #e8feff)',
   airportsBackground: 'linear-gradient(135deg, #ed6ea0, #ec8c69)',
-  contactBackground: 'linear-gradient(135deg, #1CD8D2, #93EDC7)',
+  contactBackground: 'linear-gradient(135deg, #ed6ea0, #ec8c69)',
   sceneriesBackground:'linear-gradient(135deg, #84fab0, #8fd3f4)',
   projectCard: 'white',
   titleText: '#1a475f',

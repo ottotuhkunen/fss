@@ -14,15 +14,24 @@ const HeroSection = styled.section`
 `;
 
 const Title = styled(motion.h1)`
-  font-size: 3rem;
+  font-size: 3.4rem;
   margin-bottom: 1rem;
-  color: ${({ theme }) => theme.titleText};
+  color: #dc4d40;
   text-shadow: ${({ theme }) => theme.headerShadow};
+  font-family: "landa", sans-serif;
 `;
 
+// title color: ${({ theme }) => theme.titleText}
+// (to be used if light-mode is activated)
+
 const Subtitle = styled(motion.p)`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: ${({ theme }) => theme.text};
+`;
+
+const LogoImage = styled.img`
+  max-width: 140px;
+  margin-top: 20px;
 `;
 
 const Header = ({ theme }) => {
@@ -41,7 +50,7 @@ const Header = ({ theme }) => {
         animate={{ y: 0 }}
         transition={{ type: 'spring', stiffness: 120 }}
       >
-        Fly and See Santa 2024
+        Fly and See Santa
       </Title>
       <Subtitle
         key={`subtitle-${key}`}
@@ -49,8 +58,11 @@ const Header = ({ theme }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        9th December 17:00z - 23:00z
+        14th December 17:00z - 23:00z
       </Subtitle>
+      <a href="https://vatsim-scandinavia.org/" target="_blank" rel="noopener noreferrer">
+        <LogoImage src={'images/logo.png'} alt="VATSIM Scandinavia" />
+      </a>
     </HeroSection>
   );
 };

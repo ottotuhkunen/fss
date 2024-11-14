@@ -37,6 +37,7 @@ function App() {
       Routes: 2,
       Notes: 3,
       Sceneries: 4,
+      Live: 5
     };
     const sectionIndex = sectionMap[sectionName];
     sectionRefs.current[sectionIndex]?.scrollIntoView({ behavior: 'smooth' });
@@ -81,6 +82,9 @@ function App() {
           <Sceneries />
         </div>
         <div ref={addToRefs}>
+          <Live />
+        </div>
+        <div ref={addToRefs}>
           <Contact />
         </div>
       </>
@@ -95,8 +99,6 @@ export default App;
 
 In case of LIVE
 
-<div ref={addToRefs}>
-  <Live />
-</div>
+
 
 */

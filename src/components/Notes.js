@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { FaExternalLinkAlt, FaCheckCircle, FaBroadcastTower } from 'react-icons/fa';
 
-const RoutesSection = styled.section`
+const NotesSection = styled.section`
   color: ${({ theme }) => theme.text};
   text-align: center;
   padding: 100px 20px;
@@ -27,6 +27,8 @@ const SelectionsGrid = styled.div`
   padding: 20px;
   padding-top: 0px;
   padding-bottom: 10px;
+  margin-top: 20px;
+  height: 60px;
 `;
 
 const SelectionCard = styled.a`
@@ -36,7 +38,6 @@ const SelectionCard = styled.a`
   border: none;
   cursor: pointer !important;
   display: inline-block;
-  margin-top: 20px;
   transition: all 0.3s ease;
   border-radius: 0;
   text-decoration: none;
@@ -94,6 +95,10 @@ const AtisList = styled.ul`
   }
 `;
 
+const MapExplanation = styled.p`
+  font-size: 9pt;
+`;
+
 const Notes = () => {
   const [atisData, setAtisData] = useState({ EFRO: 'Loading EFRO ATIS...', ESNQ: 'Loading ESNQ ATIS...', ENTC: 'Loading ENTC ATIS...' });
 
@@ -125,13 +130,13 @@ const Notes = () => {
   }, []);
 
   return (
-    <RoutesSection id="skills">
+    <NotesSection>
       <div className="container">
         <h2>Pilot Briefing</h2>
         <p>We would greatly appreciate it if you could take a few minutes to read our pilot briefing.</p>
 
         <SelectionsGrid>
-          <SelectionCard href="https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-rovaniemi" target='_blank'>
+          <SelectionCard href="https://wiki.vatsim-scandinavia.org/books/finnish-airports-charts/page/efro-fly-and-see-santa" target='_blank'>
             Rovaniemi <FaExternalLinkAlt style={{ fontSize: '14px', marginLeft: '6px' }} />
           </SelectionCard>
           <SelectionCard href="https://wiki.vatsim-scandinavia.org/books/swedish-airports-charts/page/esnq-kiruna" target='_blank'>
@@ -141,6 +146,9 @@ const Notes = () => {
             Tromsø <FaExternalLinkAlt style={{ fontSize: '14px', marginLeft: '6px' }} />
           </SelectionCard>
         </SelectionsGrid>
+
+        <p>Pilots may view our Map Service here <a target='_blank' href='https://fss-map.lusep.fi/'>fss-map.lusep.fi</a></p>
+        <MapExplanation>Planned ATC Sectorization, Mandatory Routes, Holding Locations etc.</MapExplanation>
 
         <Checklist>
           <li>
@@ -175,7 +183,7 @@ const Notes = () => {
           <li><FaBroadcastTower /> {atisData.ENTC}</li>
         </AtisList>
       </div>
-    </RoutesSection>
+    </NotesSection>
   );
 };
 
