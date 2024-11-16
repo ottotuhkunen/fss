@@ -179,7 +179,7 @@
       "Tromsø": ""
     },
     "EFTU": {
-      "Rovaniemi": "UVOPA DCT DIVEG DCT GODOB DCT NEPIX",
+      "Rovaniemi": "UVOPA DCT OTVEG DCT GODOB DCT NEPIX",
       "Kiruna": "",
       "Tromsø": ""
     },
@@ -189,7 +189,17 @@
       "Tromsø": ""
     },
     "EFKU": {
-      "Rovaniemi": "UGLUM DCT RIBVU Y75 NEPIX",
+      "Rovaniemi": "UGLUM DCT ELPOP Y75 NEPIX",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EFIV": {
+      "Rovaniemi": "LUSAG DCT GITEV Y86 OSLIT",
+      "Kiruna": "",
+      "Tromsø": ""
+    },
+    "EFKT": {
+      "Rovaniemi": "TUGPU DCT OSLIT",
       "Kiruna": "",
       "Tromsø": ""
     }
